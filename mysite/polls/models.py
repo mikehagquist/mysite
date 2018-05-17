@@ -22,3 +22,10 @@ class Choice(models.Model):
     
     def __str__(self):
         return self.choice_text
+        
+class LastVoter(models.Model):
+    choice = models.ForeignKey(Choice, on_delete=models.CASCADE)
+    votername = models.CharField(max_length=200)
+    
+    def __str__(self):
+        return self.votername
