@@ -3,7 +3,7 @@ from django.urls import include, path
 
 
 urlpatterns = [
-    path('polls/', include('polls.urls')),
+    #path('polls/', include('polls.urls')), Comment due to weird free teir aws url
     path('admin/', admin.site.urls),
     path('', include('polls.urls')),
 ]
