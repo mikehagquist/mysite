@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['.amazon.com', '.aws.amazon.com', '.amazonaws.com']
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    #'stringsomedays.apps.StringSomeDaysConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
