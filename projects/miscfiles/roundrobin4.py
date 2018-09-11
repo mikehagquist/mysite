@@ -23,7 +23,7 @@ for fixture in fixtures:
     print ("Week ", count, fixture)
     count+=1
 
-myweight = 185
+myweight = 190
 myheight = 71
 myage = 43
 actlvl = 1.2
